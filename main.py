@@ -1,3 +1,4 @@
+import logging
 from aiogram.utils import executor
 from create_bot import dp
 # from handlers import add_profileFSM, control_profileFSM, main, regFSM, parser_controlFSM
@@ -5,7 +6,7 @@ from create_bot import dp
 async def on_startup(_):
     print('Бот в онлайне')
 
-# logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 
 # parser_controlFSM.reg_handlers_pars_fsm(dp)
 # control_profileFSM.reg_handlers_edit_fsm(dp)
