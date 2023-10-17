@@ -1,4 +1,4 @@
 /venv
 /secret.py
-/datebase.db
+/DB/database.db
 /__pycache__
